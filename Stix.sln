@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.Vulnerability", "Stix.Vulnerability\Stix.Vulnerability.csproj", "{34B3ABE6-D1A9-40A9-BC63-0A08DEA5AFE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.Core", "Stix.Core\Stix.Core.csproj", "{5FD05971-A980-4C1B-8CB9-8B7D9736002A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.Contracts", "Stix.Contracts\Stix.Contracts.csproj", "{C3D54AA8-6FAD-4F52-9C46-1E462EC9C046}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.Vulnerability.Functions", "Stix.Vulnerability.Functions\Stix.Vulnerability.Functions.csproj", "{15EDFEDE-BF8E-4EFC-978E-0544612C3FE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.Vulnerability.WebApi", "Stix.Vulnerability.WebApi\Stix.Vulnerability.WebApi.csproj", "{EB01BA53-6A88-4715-8EE5-7526458C7603}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.Web.Common", "Stix.Web.Common\Stix.Web.Common.csproj", "{798D7BBF-7443-42DD-A84F-53EC236DD870}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.Vulnerability.Tests", "Stix.Vulnerability.Tests\Stix.Vulnerability.Tests.csproj", "{B5103CA6-7D57-4365-B805-925B2B9909F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{031B8360-39F9-45BA-8274-EDEAFA04D3A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{FB3D24B8-2A8C-463A-9607-A056CD8EF402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{59A50756-939F-48FB-BC46-721E67489231}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stix.CosmosDb", "Stix.CosmosDb\Stix.CosmosDb.csproj", "{EF2E7DAC-35F7-4733-AA74-8B450EAAA863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stix.Vulnerability.WebApi.Tests", "Stix.Vulnerability.WebApi.Tests\Stix.Vulnerability.WebApi.Tests.csproj", "{CDC71F65-914D-4C79-84E3-33FB09853E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34B3ABE6-D1A9-40A9-BC63-0A08DEA5AFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B3ABE6-D1A9-40A9-BC63-0A08DEA5AFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B3ABE6-D1A9-40A9-BC63-0A08DEA5AFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B3ABE6-D1A9-40A9-BC63-0A08DEA5AFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD05971-A980-4C1B-8CB9-8B7D9736002A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD05971-A980-4C1B-8CB9-8B7D9736002A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD05971-A980-4C1B-8CB9-8B7D9736002A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD05971-A980-4C1B-8CB9-8B7D9736002A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D54AA8-6FAD-4F52-9C46-1E462EC9C046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D54AA8-6FAD-4F52-9C46-1E462EC9C046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D54AA8-6FAD-4F52-9C46-1E462EC9C046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D54AA8-6FAD-4F52-9C46-1E462EC9C046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EDFEDE-BF8E-4EFC-978E-0544612C3FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EDFEDE-BF8E-4EFC-978E-0544612C3FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EDFEDE-BF8E-4EFC-978E-0544612C3FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EDFEDE-BF8E-4EFC-978E-0544612C3FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB01BA53-6A88-4715-8EE5-7526458C7603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB01BA53-6A88-4715-8EE5-7526458C7603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB01BA53-6A88-4715-8EE5-7526458C7603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB01BA53-6A88-4715-8EE5-7526458C7603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798D7BBF-7443-42DD-A84F-53EC236DD870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798D7BBF-7443-42DD-A84F-53EC236DD870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798D7BBF-7443-42DD-A84F-53EC236DD870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798D7BBF-7443-42DD-A84F-53EC236DD870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5103CA6-7D57-4365-B805-925B2B9909F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5103CA6-7D57-4365-B805-925B2B9909F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5103CA6-7D57-4365-B805-925B2B9909F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5103CA6-7D57-4365-B805-925B2B9909F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2E7DAC-35F7-4733-AA74-8B450EAAA863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2E7DAC-35F7-4733-AA74-8B450EAAA863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2E7DAC-35F7-4733-AA74-8B450EAAA863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2E7DAC-35F7-4733-AA74-8B450EAAA863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC71F65-914D-4C79-84E3-33FB09853E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC71F65-914D-4C79-84E3-33FB09853E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC71F65-914D-4C79-84E3-33FB09853E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC71F65-914D-4C79-84E3-33FB09853E55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FD05971-A980-4C1B-8CB9-8B7D9736002A} = {59A50756-939F-48FB-BC46-721E67489231}
+		{C3D54AA8-6FAD-4F52-9C46-1E462EC9C046} = {59A50756-939F-48FB-BC46-721E67489231}
+		{15EDFEDE-BF8E-4EFC-978E-0544612C3FE3} = {FB3D24B8-2A8C-463A-9607-A056CD8EF402}
+		{EB01BA53-6A88-4715-8EE5-7526458C7603} = {FB3D24B8-2A8C-463A-9607-A056CD8EF402}
+		{798D7BBF-7443-42DD-A84F-53EC236DD870} = {FB3D24B8-2A8C-463A-9607-A056CD8EF402}
+		{B5103CA6-7D57-4365-B805-925B2B9909F1} = {031B8360-39F9-45BA-8274-EDEAFA04D3A5}
+		{EF2E7DAC-35F7-4733-AA74-8B450EAAA863} = {59A50756-939F-48FB-BC46-721E67489231}
+		{CDC71F65-914D-4C79-84E3-33FB09853E55} = {031B8360-39F9-45BA-8274-EDEAFA04D3A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C32D931D-0798-4144-97A6-0DA753122AF4}
+	EndGlobalSection
+EndGlobal
